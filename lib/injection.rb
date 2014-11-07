@@ -25,7 +25,7 @@ class Injection
 
   def refresh
     self.revert
-    self.path
+    self.patch
   end
 
   def my_first_public_ipv4

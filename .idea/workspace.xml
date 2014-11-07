@@ -9,7 +9,7 @@
     <file path="/Dummy.txt" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415318788068" ignored="false" />
     <file path="/test.sh" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320328981" ignored="false" />
     <file path="/injection.gemspec" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320322857" ignored="false" />
-    <file path="/injection.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320627984" ignored="false" />
+    <file path="/injection.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415321082748" ignored="false" />
     <file path="/injection" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415319177827" ignored="false" />
     <file path="/a.dummy" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320317303" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,7 +61,7 @@
       <file leaf-file-name="injection.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/injection.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="113" selection-start="953" selection-end="953" vertical-scroll-proportion="0.71089387">
+            <state line="27" column="13" selection-start="600" selection-end="600" vertical-scroll-proportion="0.4217877">
               <folding />
             </state>
           </provider>
@@ -139,20 +139,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="injection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="injection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="injection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,7 +286,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/injection.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="113" selection-start="953" selection-end="953" vertical-scroll-proportion="0.71089387">
+        <state line="27" column="13" selection-start="600" selection-end="600" vertical-scroll-proportion="0.4217877">
           <folding />
         </state>
       </provider>
