@@ -1,4 +1,4 @@
-injection
+Injection Helper
 =========
 
-simple command line utility for patching project for InjectionForXcode and reverting it
+please find description of Injection Helper on [our company blog](http://blog.brightinventions.pl/xcodeforinjection-meets-command-line/)
