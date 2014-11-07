@@ -3,15 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="64024e8d-d802-4394-9249-2a6e844cdb84" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/injection.rb" afterPath="$PROJECT_DIR$/lib/injection.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/injection" afterPath="$PROJECT_DIR$/bin/injection" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="injection.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415318788068" ignored="false" />
     <file path="/test.sh" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320328981" ignored="false" />
     <file path="/injection.gemspec" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320322857" ignored="false" />
-    <file path="/injection.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415353990750" ignored="false" />
+    <file path="/injection.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415354145270" ignored="false" />
     <file path="/injection" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415352093215" ignored="false" />
     <file path="/a.dummy" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415351667982" ignored="false" />
     <file path="/muting_definitions.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415351462476" ignored="false" />
@@ -70,7 +68,7 @@
       <file leaf-file-name="injection.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/injection.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="25" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.26815644">
+            <state line="12" column="47" selection-start="353" selection-end="353" vertical-scroll-proportion="0.38547486">
               <folding />
             </state>
           </provider>
@@ -361,7 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/injection.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="25" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.26815644">
+        <state line="12" column="47" selection-start="353" selection-end="353" vertical-scroll-proportion="0.38547486">
           <folding />
         </state>
       </provider>

@@ -10,7 +10,7 @@ class Injection
     project_files = Dir.glob('./*.xcodeproj')
 
     if project_files.size != 1
-      raise 'Zero or more than one project files found in path ' + project_files.join(',')
+      raise 'Zero or more than one project file found in current path. Make sure you run this script in XCode project directory '
     end
 
     @project_file = project_files[0]
