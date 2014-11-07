@@ -3,15 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="64024e8d-d802-4394-9249-2a6e844cdb84" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/injection.rb" afterPath="$PROJECT_DIR$/lib/injection.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/injection" afterPath="$PROJECT_DIR$/bin/injection" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="injection.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415318788068" ignored="false" />
     <file path="/test.sh" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320328981" ignored="false" />
     <file path="/injection.gemspec" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320322857" ignored="false" />
-    <file path="/injection.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415321082748" ignored="false" />
-    <file path="/injection" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415319177827" ignored="false" />
-    <file path="/a.dummy" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320317303" ignored="false" />
+    <file path="/injection.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415353990750" ignored="false" />
+    <file path="/injection" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415352093215" ignored="false" />
+    <file path="/a.dummy" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415351667982" ignored="false" />
+    <file path="/muting_definitions.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415351462476" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin/Contents/Resources/common.pm" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415354028800" ignored="false" />
+    <file path="/common.pm" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415351730355" ignored="false" />
+    <file path="/BundleInjection.h" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415352137365" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin/Contents/Resources/BundleInjection.h" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415354028800" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin/Contents/Resources/BundleInjection.h_bak" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415354014456" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin/Contents/Resources/common.pm_bak" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415354019195" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +61,7 @@
       <file leaf-file-name="injection" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/injection">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="4" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
+            <state line="48" column="26" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,7 +70,7 @@
       <file leaf-file-name="injection.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/injection.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="600" selection-end="600" vertical-scroll-proportion="0.4217877">
+            <state line="47" column="25" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.26815644">
               <folding />
             </state>
           </provider>
@@ -85,9 +94,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/bin/injection" />
         <option value="$PROJECT_DIR$/injection.gemspec" />
         <option value="$PROJECT_DIR$/test.sh" />
+        <option value="$PROJECT_DIR$/lib/muting_definitions.rb" />
+        <option value="$PROJECT_DIR$/bin/injection" />
         <option value="$PROJECT_DIR$/lib/injection.rb" />
       </list>
     </option>
@@ -152,6 +162,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="injection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="injection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -163,12 +187,63 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin/Contents/Resources" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager">
-    <list size="0" />
+  <component name="RunManager" selected="Ruby.injection">
+    <configuration default="false" name="injection" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="injection" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/lib" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/lib/injection.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Ruby.injection" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.injection" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -192,7 +267,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -263,6 +338,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/injection.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
@@ -272,21 +354,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/injection">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="4" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/injection.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+        <state line="48" column="26" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/injection.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="600" selection-end="600" vertical-scroll-proportion="0.4217877">
+        <state line="47" column="25" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.26815644">
           <folding />
         </state>
       </provider>

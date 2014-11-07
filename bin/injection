@@ -12,7 +12,7 @@ class OptionsParser
       opts.banner = 'Usage: injection COMMAND [options]'
 
       opts.separator ''
-      opts.separator 'Use "patch", "revert" or "refresh" as a COMMAND'
+      opts.separator 'Use "patch", "revert", "refresh", "mute", "unmute" as a COMMAND'
       opts.separator ''
       opts.on_tail('-h', '--help', 'Show this message') do
         puts opts
@@ -41,6 +41,12 @@ case arg
   when 'refresh'
       injection = Injection.new
       injection.refresh
+  when 'mute'
+      injection = Injection.new
+      injection.mute_all
+  when 'unmute'
+      injection = Injection.new
+      injection.unmute_all
   else
     OptionsParser.parse(["-h"])
 end
