@@ -1,0 +1,46 @@
+#!/usr/bin/env ruby
+
+require 'injection'
+require 'optparse'
+
+class OptionsParser
+
+  def self.parse(args)
+    options = {}
+
+    opt_parser = OptionParser.new do |opts|
+      opts.banner = 'Usage: injection COMMAND [options]'
+
+      opts.separator ''
+      opts.separator 'Use "patch", "revert" or "refresh" as a COMMAND'
+      opts.separator ''
+      opts.on_tail('-h', '--help', 'Show this message') do
+        puts opts
+        exit
+      end
+
+    end
+
+    opt_parser.parse!(args)
+    options
+  end
+
+end
+
+
+arg = ARGV[0]
+options = OptionsParser.parse(ARGV)
+
+case arg
+  when 'revert'
+    injection = Injection.new
+    injection.revert
+  when 'patch'
+    injection = Injection.new
+    injection.patch
+  when 'refresh'
+      injection = Injection.new
+      injection.refresh
+  else
+    OptionsParser.parse(["-h"])
+end
