@@ -1,5 +1,6 @@
-class Injection
+require 'socket'
 
+class Injection
 
   def initialize
     home = Dir.home
@@ -12,7 +13,6 @@ class Injection
     end
 
     @project_file = project_files[0]
-
   end
 
   def revert
@@ -20,7 +20,7 @@ class Injection
   end
 
   def patch
-    self.execute_command('pathProject.pl')
+    self.execute_command('patchProject.pl')
   end
 
   def refresh
@@ -28,8 +28,13 @@ class Injection
     self.path
   end
 
+  def my_first_public_ipv4
+    Socket.ip_address_list.detect{|intf| intf.ipv4? and !intf.ipv4_loopback? and !intf.ipv4_multicast? and !intf.ipv4_private?}
+  end
+
   def execute_command(script_name)
-    command = "#{@resources}#{script_name}  #{@resources} #{@project_file} \"\" \"\" i386 0 20 0 \"127.0.0.1 192.168.0.11\" 31444"
+    ip = self.my_first_public_ipv4
+    command = "#{@resources}#{script_name}  #{@resources} #{@project_file} \"\" \"\" i386 0 20 0 \"127.0.0.1 #{ip}\" 31444"
     system(command)
   end
 

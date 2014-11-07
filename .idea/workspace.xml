@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64024e8d-d802-4394-9249-2a6e844cdb84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/injection.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/injection.gemspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/injection.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/injection" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/injection.rb" afterPath="$PROJECT_DIR$/lib/injection.rb" />
     </list>
     <ignored path="injection.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415318788068" ignored="false" />
     <file path="/test.sh" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320328981" ignored="false" />
     <file path="/injection.gemspec" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320322857" ignored="false" />
-    <file path="/injection.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320287023" ignored="false" />
+    <file path="/injection.rb" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320627984" ignored="false" />
     <file path="/injection" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415319177827" ignored="false" />
     <file path="/a.dummy" changelist="64024e8d-d802-4394-9249-2a6e844cdb84" time="1415320317303" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +61,7 @@
       <file leaf-file-name="injection.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/injection.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="90" selection-start="358" selection-end="358" vertical-scroll-proportion="0.2955032">
+            <state line="36" column="113" selection-start="953" selection-end="953" vertical-scroll-proportion="0.71089387">
               <folding />
             </state>
           </provider>
@@ -208,7 +199,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24925816" sideWeight="0.67107004" order="0" side_tool="false" content_ui="combo" />
@@ -286,13 +277,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/injection.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
@@ -307,9 +291,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/injection.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/injection.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="90" selection-start="358" selection-end="358" vertical-scroll-proportion="0.2955032">
+        <state line="36" column="113" selection-start="953" selection-end="953" vertical-scroll-proportion="0.71089387">
           <folding />
         </state>
       </provider>
