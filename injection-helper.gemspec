@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = 'injection'
+  s.name = 'injection-helper'
   s.version = '0.0.1'
   s.executables << 'injection'
   s.date = '2014-11-07'

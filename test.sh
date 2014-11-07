@@ -1,2 +1,2 @@
-gem build injection.gemspec
-gem install ./injection-0.0.1.gem
+gem build injection-helper.gemspec
+gem install ./injection-helper-0.0.1.gem
