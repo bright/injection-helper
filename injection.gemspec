@@ -9,7 +9,6 @@ using option in Xcode or AppCode menu, which generates a lot of alerts"
   s.authors = ["Michal Lukasiewicz"]
   s.email = 'michal.lukasiewicz@brightinventions.pl'
   s.files = ["lib/injection.rb"]
-  s.homepage =
-      'https://github.com/bright/injection'
+  s.homepage = 'https://github.com/bright/injection'
   s.license = 'MIT'
 end
